@@ -54,7 +54,7 @@ python -m pip install -r requirements.txt
 
 Na primeira execução, o modelo de embeddings (~470 MB) é baixado automaticamente.
 
-Copie `.env.example` para `.env` e preencha a chave:
+Crie `.env` e preencha a chave:
 
 ```
 ANTHROPIC_API_KEY=sua-chave
@@ -128,10 +128,10 @@ Falhas conhecidas:
 - **Seções 9.x da Cartilha** (criptografia): "criptografia" e "cuidados" aparecem em várias seções, e a 9.1 perde para seções sobre senhas.
 - **Pergunta sobre a seção 2.4**: o resultado é a subseção 2.4.1. O teste conta só o número exato, então esse caso conta como erro, mas a resposta é relevante.
 
-**Economia de tokens** (medição com 6 perguntas, `/completo` x `/filtrado`):
+**Economia de tokens** (medição com `/completo` x `/filtrado`):
 - Entrada: cerca de **44% menos** tokens no total (9.893 → 5.552).
 - Saída: cerca de **30% menos** tokens (3.343 → 2.336).
-- Nas 5 perguntas que usaram os documentos, a economia média de entrada é de **39,7%**. A pergunta sobre férias saiu sem contexto, e sua economia alta não conta como ganho de busca.
+- Nas perguntas que usaram os documentos, a economia média de entrada é de **39,7%**.
 
 ## Calibração
 
