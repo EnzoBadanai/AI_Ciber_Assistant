@@ -1,0 +1,12 @@
+sentence-transformers>=2.7
+chromadb>=0.5
+anthropic>=0.40
+pymupdf>=1.24
+langchain-text-splitters>=0.2
+python-dotenv>=1.0
+pandas>=2.0
+numpy>=1.26
+fastapi>=0.110
+uvicorn>=0.29
+streamlit>=1.36
+requests>=2.31
